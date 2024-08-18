@@ -10,13 +10,8 @@ const ROUTES: RouteObject[] = [
     errorElement: <Pages.ErrorPage />,
   },
   {
-    path: PATHS.SIGN_IN,
-    element: <Pages.SignInPage />,
-    errorElement: <Pages.ErrorPage />,
-  },
-  {
-    path: PATHS.SIGN_IN,
-    element: <Pages.SignInPage />,
+    path: PATHS.SIGN_UP,
+    element: <Pages.SignUpPage />,
     errorElement: <Pages.ErrorPage />,
   },
   {
