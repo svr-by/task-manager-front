@@ -1,0 +1,12 @@
+.error-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-page__title,
+.error-page__message {
+  margin: 0 0 2rem;
+}
