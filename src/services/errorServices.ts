@@ -9,7 +9,7 @@ export function showErrorMessage(error: unknown) {
     const serverMes = error.response?.data;
     if (serverMes || typeof serverMes === 'string') {
       console.log(serverMes);
-      const rusMessage = ERROR_MES_RUS[serverMes];
+      const rusMessage = ERROR_MES_RUS[serverMes as keyof typeof ERROR_MES_RUS];
       if (rusMessage) {
         toast.error(rusMessage);
         return;
