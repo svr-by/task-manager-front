@@ -5,6 +5,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import router from '@/router/router';
 import store from '@/redux/store';
+import '@/styles/normalize.css';
+import '@/styles/variables.css';
 import './App.css';
 
 export default function App() {

@@ -1,0 +1,49 @@
+:root {
+/*  colors*/
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #82b9e1;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-300: #d1d5db;
+  --grey-400: #9ca3af;
+  --grey-500: #6b7280;
+  --grey-600: #4b5563;
+  --grey-700: #374151;
+  --grey-800: #1f2937;
+  --grey-900: #111827;
+  --red-100: #fee2e2;
+  --red-300: #fca5a5;
+  --red-600: #dc2626;
+  --yellow-300: #fde047;
+  --yellow-600: #ca8a04;
+  --lime-100: #ecfccb;
+  --lime-300: #bef264;
+  --lime-600: #65a30d;
+  --sky-300: #7dd3fc;
+  --sky-500: #0ea5e9;
+  --sky-600: #0284c7;
+
+ 
+/*  background*/
+  --layout-bgc: #f4f5fa;
+/*  text*/
+  --text: #1f2937;
+/*  columns*/
+  --grey-card-column: #f9f7fa;
+  --box-shadow-card-colymn: #d2d7e0;
+  --background-board-shadow-column: var(--box-shadow-card-colymn);
+/*  pages*/
+  --background-pages: var(--white);
+/*  header and footer*/
+  --header-background-color-scroll: var(--white-dark);
+/*  project*/
+  --background-button: var(--white-dark);
+  --background-card-column: var(--grey-card-column);
+/*  cards*/
+  --border: var(--black);
+/*  svg*/
+  --color-svg: var(--black);
+/*  modal*/
+  --background-color-modal: var(--white);
+}

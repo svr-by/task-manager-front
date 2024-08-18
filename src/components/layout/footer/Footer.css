@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.github {
+  display: flex;
+  gap: 3rem;
+}
+
+.github__link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.github__text {
+  margin: 0;
+}
+.github__image {
+  width: 20px;
+  fill: var(--black);
+  transition: all 0.3s;
+}
+
+.github__link:hover .github__text, 
+.github__link:hover .github__image {
+  color: var(--sky-500);
+}
+
+.copyright {
+  order: 3;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.copyright__text {
+  margin: 0;
+}

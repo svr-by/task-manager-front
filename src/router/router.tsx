@@ -15,6 +15,11 @@ const ROUTES: RouteObject[] = [
     errorElement: <Pages.ErrorPage />,
   },
   {
+    path: PATHS.SIGN_IN,
+    element: <Pages.SignInPage />,
+    errorElement: <Pages.ErrorPage />,
+  },
+  {
     path: PATHS.NOT_FOUND,
     element: <Pages.NotFoundPage />,
     errorElement: <Pages.ErrorPage />,
